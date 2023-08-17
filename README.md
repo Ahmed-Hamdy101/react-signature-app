@@ -56,7 +56,7 @@ If you would like to contribute to this project, please fork the repository and 
 
 ## License
 
-This project is licensed under the MIT License.
+This project is unlicensed open source.
 
 ## Contact
 
