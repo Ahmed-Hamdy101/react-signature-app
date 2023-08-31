@@ -3,9 +3,14 @@ import Title from "../components/Title";
 import { useState } from "react";
 export default function XsignatureApp() {
   const [name, setName] = useState("")
+  const [date, setDate] = useState("")
   const handleNameChange = (e)=>{
       // console.log(e.target.value);
       setName((prev)=>({...prev,[e.target.id]: e.target.value}))
+  }
+  const handleDate= (e)=>{
+      // console.log(e.target.value);
+      setDate((prev)=>({...prev,[e.target.id]: e.target.value}))
   }
   const inputStyle = {
     border: "none",
