@@ -18,7 +18,7 @@ export default function XsignatureApp() {
   };
   return (
     <div className="container text-center">
-      <Title text={"Name"} classes={"title"} />
+      <Title text={name} classes={"title"} />
       <Title text={"Date"} classes={"main-title mb-4"} />
       <p>
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam atque
