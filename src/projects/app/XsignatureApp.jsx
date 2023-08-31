@@ -2,6 +2,7 @@ import React from "react";
 import Title from "../components/Title";
 // import { useState } from "react";
 export default function XsignatureApp() {
+  const [name, setstate] = useState("")
   const inputStyle = {
     border: "none",
     borderBottom: "2px solid",
@@ -12,7 +13,6 @@ export default function XsignatureApp() {
     fontFamily: "track",
     fontSize: "16px",
   };
-  // const [state, setstate] = useState(initialState)
   return (
     <div className="container text-center">
       <Title text={"Name"} classes={"title"} />
