@@ -6,11 +6,11 @@ export default function XsignatureApp() {
   const [date, setDate] = useState("")
   const handleNameChange = (e)=>{
       // console.log(e.target.value);
-      setName((prev)=>({...prev,[e.target.id]: e.target.value}))
+      setName(e.target.value)
   }
   const handleDateChange= (e)=>{
       // console.log(e.target.value);
-      setDate((prev)=>({...prev,[e.target.id]: e.target.value}))
+      setDate(e.target.value)
   }
   const inputStyle = {
     border: "none",
