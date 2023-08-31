@@ -4,7 +4,8 @@ import { useState } from "react";
 export default function XsignatureApp() {
   const [name, setName] = useState("")
   const handleNameChange = (e)=>{
-      console.log(e.target.value);
+      // console.log(e.target.value);
+      setName((prev)=>({...prev,[e.target.id]: e.target.value}))
   }
   const inputStyle = {
     border: "none",
