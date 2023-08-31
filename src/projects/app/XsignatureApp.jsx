@@ -1,8 +1,11 @@
 import React from "react";
 import Title from "../components/Title";
-// import { useState } from "react";
+import { useState } from "react";
 export default function XsignatureApp() {
-  const [name, setstate] = useState("")
+  const [name, setName] = useState("")
+  const handleNameChange = (e)=>{
+      console.log(e.target.value);
+  }
   const inputStyle = {
     border: "none",
     borderBottom: "2px solid",
@@ -37,7 +40,7 @@ export default function XsignatureApp() {
         > <label htmlFor="">Date</label>
           <input type="date" style={inputStyle} name="username" />
           <label htmlFor=""> Name</label>
-          <input type="text" style={inputStyle} />
+          <input type="text" style={inputStyle} value={name} onChange={handleNameChange}/>
         </fieldset>
       </section>
     </div>
