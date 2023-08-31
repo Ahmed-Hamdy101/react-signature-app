@@ -8,7 +8,7 @@ export default function XsignatureApp() {
       // console.log(e.target.value);
       setName((prev)=>({...prev,[e.target.id]: e.target.value}))
   }
-  const handleDate= (e)=>{
+  const handleDateChange= (e)=>{
       // console.log(e.target.value);
       setDate((prev)=>({...prev,[e.target.id]: e.target.value}))
   }
