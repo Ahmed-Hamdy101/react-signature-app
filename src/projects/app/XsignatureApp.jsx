@@ -44,7 +44,7 @@ export default function XsignatureApp() {
             top: "46px",
           }}
         > <label htmlFor="">Date</label>
-          <input type="date" style={inputStyle} name="username" />
+          <input type="date" style={inputStyle} name="username"  value={date} onChange={handleDateChange}/>
           <label htmlFor=""> Name</label>
           <input type="text" style={inputStyle} value={name} onChange={handleNameChange}/>
         </fieldset>
