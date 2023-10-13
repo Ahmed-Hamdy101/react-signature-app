@@ -1,5 +1,4 @@
-Sure, here is the README.md file for your Signature React App:
-
+![signatureapp](./signapp.png)
 # Signature React App
 
 This is a simple React app that demonstrates how to use the Signature component.
